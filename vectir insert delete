@@ -1,0 +1,35 @@
+import java.util.*;
+ 
+// Main class
+public class GFG {
+ 
+    // Main driver method
+    public static void main(String args[])
+    {
+        // Creating an empty vector of string type
+        Vector<String> vec_tor = new Vector<String>();
+ 
+        // Adding custom elements into the vector
+        // using add() method
+        vec_tor.add("Welcome");
+        vec_tor.add("To");
+        vec_tor.add("Geeks");
+        vec_tor.add("4");
+        vec_tor.add("Geeks");
+ 
+        // Printing elements of vector
+        System.out.println("Vector: " + vec_tor);
+ 
+        // Inserting element at 3rd position
+        // Custom specified
+        vec_tor.insertElementAt("Hello", 2);
+ 
+        // Inserting element at last position
+        vec_tor.insertElementAt("World", 6);
+ 
+        // Printing elements of final vector
+        System.out.println("The final vector is "
+                           + vec_tor);
+    }
+}
+ 
